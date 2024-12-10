@@ -58,10 +58,10 @@ This project converts arithmetic expressions into assembly code using Python. It
     ```plaintext
     PUSH A
     PUSH B
-    SUB
+    SUB  -
     PUSH C
-    MPY
-    POP
+    MPY  -
+    POP  R
     ```
 
 ---
